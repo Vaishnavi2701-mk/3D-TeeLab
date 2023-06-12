@@ -19,7 +19,7 @@ const FilePicker = ({ file, setFile, readFile }) => {
         </p>
       </div>
 
-      <div className="mt-4 flex flex-wap gap-36">
+      <div className="mt-4 flex flex-wap gap-3">
         <CustomButton
           type="outline"
           title="Logo"
