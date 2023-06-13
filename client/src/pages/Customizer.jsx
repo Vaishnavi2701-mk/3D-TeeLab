@@ -61,7 +61,7 @@ const Customizer = () => {
       alert(error);
     } finally {
       setGeneratingImg(false);
-      setActiveEditorTab(""); 
+      setActiveEditorTab("");
     }
   };
 
@@ -85,6 +85,7 @@ const Customizer = () => {
       default:
         state.isFullTexture = true;
         state.isLogoTexture = false;
+        break;
     }
     // after setting the state, activeFilterTab is updated
 
@@ -149,7 +150,7 @@ const Customizer = () => {
                 tab={tab}
                 isFilterTab
                 isActiveTab={activeFilterTab[tab.name]}
-                handleClick={() => handleActiveFilterTab(tab.name)}
+                 handleClick={() => handleActiveFilterTab(tab.name)}
               />
             ))}
           </motion.div>
